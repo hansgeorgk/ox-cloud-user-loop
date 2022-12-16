@@ -2,17 +2,17 @@
 shell script to create a loop around Wolgangs' python scripts
 
 please provide these 5 variables:
-1 Context ID
-2 user count start
-3 company name
-4 Access combination number
-	1 for cloud_pim
-	2 for cloud_productivity
-	3 for cloud_productivity_security
-5 user count end
+1. Context ID
+2. user count start
+3. company name
+4. Access combination number
+	1.for cloud_pim
+	2.for cloud_productivity
+	3.for cloud_productivity_security
+5. user count end
 
 example output
-./create-users.sh 12345 1 aruba 2 3
+./create-users.sh 12345 1 aruba 2 3  
 Context ID: 12345
 user count start: 1
 company name: aruba
