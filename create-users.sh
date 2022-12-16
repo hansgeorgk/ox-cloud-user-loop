@@ -49,6 +49,7 @@ i=$2
 while [ $i -le $5 ]
 do
 	echo "python3 createuser.py -c $1 -e demo$i.$3@oxcloud-demo.de -p secret -g demo$2 -s $3 -q1000 -a $acn --editpassword"
+	echo "for real execution uncomment the line below or find a smarter way to excute the commands ..."
 	# python3 createuser.py -c $1 -e demo$i.$3@oxcloud-demo.de -p secret -g demo$2 -s $3 -q1000 -a $acn --editpassword
 	sleep 1
 	((i++))	
