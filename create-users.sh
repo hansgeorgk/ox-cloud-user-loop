@@ -24,7 +24,7 @@ elif [ $4 -eq 3 ]
    then
      acn=cloud_productivity_security
 else
-   echo "wrong access combination name number provided. Correct values are 1,2 or 3!!!"
+   echo "wrong number for access combination name provided. Correct values are 1,2 or 3!!!"
    exit 1
 fi
 
